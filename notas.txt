@@ -1,0 +1,39 @@
+INSTALACAO
+-Dependencias:
+Linux
+>TA-Lib
+Download ta-lib-0.4.0-src.tar.gz and: (https://sourceforge.net/projects/ta-lib/files/ta-lib/0.4.0/ta-lib-0.4.0-src.tar.gz/download?use_mirror=sonik)
+$ untar and cd
+$ ./configure --prefix=/usr (leva alguns segundos)
+$ make (leva cerca de 1 min)
+$ sudo make install
+
+    If you build TA-Lib using make -jX it will fail but that's OK! Simply rerun make -jX followed by [sudo] make install.
+-Biblioteca principal:
+	You can install from PyPI:
+	$ pip install TA-Lib (or download and install from https://mrjbq7.github.io/ta-lib/)
+	Ps: I use pip3
+	Or checkout the sources and run setup.py yourself:
+	$ python setup.py install
+
+>YFinance		   : $ pip3 install yfinance
+>Pandas Data Reader: $ pip3 install pandas_datareader
+>MatPlotLib		   : $ pip3 install matplotlib
+>MPLCursors		   : $ pip3 install mplcursors
+>MPLFinance		   : $ pip3 install mplfinance
+
+EXEMPLO DE USO:
+$ python pat3.py
+Basta seguir o menu interativo:
+╔══════════════════════════════════════════════╕
+║::: MENU ::::                                 │
+║1-Defina acao e periodo                       │
+║2-Ache N padroes em uma acao                  │
+║3-Ache um padrao em N acoes                   │
+║4-Grafico com indicadores                     │
+║5-Mostrar tabela da acao escolhida            │
+║6-Mudar estilo do grafico                     │
+║7-Sobre...                                    │
+║8-Sair                                        │
+╙──────────────────────────────────────────────┘
+

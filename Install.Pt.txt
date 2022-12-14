@@ -1,29 +1,31 @@
-INSTALACAO
--Dependencias:
+	I N S T A L A C A O
+►    Dependências do Sistema: ◄
 Linux
->TA-Lib
+->TA-Lib
 Download ta-lib-0.4.0-src.tar.gz and: (https://sourceforge.net/projects/ta-lib/files/ta-lib/0.4.0/ta-lib-0.4.0-src.tar.gz/download?use_mirror=sonik)
-$ untar and cd
+'$ untar' e 'cd' para entrar no diretório (pasta)
 $ ./configure --prefix=/usr (leva alguns segundos)
 $ make (leva cerca de 1 min)
 $ sudo make install
 
-    If you build TA-Lib using make -jX it will fail but that's OK! Simply rerun make -jX followed by [sudo] make install.
--Biblioteca principal:
-	You can install from PyPI:
+    Se você compilou a biblioteca TA-Lib usando 'make -jX' e falhar, sem problema! Apenas rode novamente: 'make -jX' seguido por [sudo] make install.
+
+►    Dependências do Python: ◄
+->Biblioteca principal (qu se comunica com a TA-Lib):
+	Você pode instalá-la do repositório PyPI:
 	$ pip install TA-Lib (or download and install from https://mrjbq7.github.io/ta-lib/)
-	Ps: I use pip3
-	Or checkout the sources and run setup.py yourself:
+	Obs: Eu uso pip3
+	Ou verifique o código fonte e compile o arquivo 'setup.py' você mesmo:
 	$ python setup.py install
 
->YFinance		   : $ pip3 install yfinance
->Pandas Data Reader: $ pip3 install pandas_datareader
->MatPlotLib		   : $ pip3 install matplotlib
->MPLCursors		   : $ pip3 install mplcursors
->MPLFinance		   : $ pip3 install mplfinance
+->YFinance		   : $ pip3 install yfinance
+->Pandas Data Reader       : $ pip3 install pandas_datareader
+->MatPlotLib		   : $ pip3 install matplotlib
+->MPLCursors		   : $ pip3 install mplcursors
+->MPLFinance		   : $ pip3 install mplfinance
 
 EXEMPLO DE USO:
-$ python pat3.py
+$ python3 pat3.py 		(ou python pat3.py - em sistemas mais antigos)
 Basta seguir o menu interativo:
 ╔══════════════════════════════════════════════╕
 ║::: MENU ::::                                 │
@@ -36,4 +38,3 @@ Basta seguir o menu interativo:
 ║7-Sobre...                                    │
 ║8-Sair                                        │
 ╙──────────────────────────────────────────────┘
-

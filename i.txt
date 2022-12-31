@@ -15,3 +15,4 @@
 ['TEMA','Triple Exponential Moving Average','','real = TEMA(close, timeperiod=30)',''],
 ['TRIMA','Triangular Moving Average','','real = TRIMA(close, timeperiod=30)',''],
 ['WMA','Weighted Moving Average','','real = WMA(close, timeperiod=30)','']]
+ 

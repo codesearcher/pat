@@ -32,8 +32,8 @@ $ sudo make install<br>
 
 $ python3 pat3.py		(or python pat3.py - in some older systems)<br>
 Just follows the interactive menu:<br>
-╔════════════════════════════════════════════════════════╕<br>
-║::: MENU ::::                       	                 │<br>
+╔═══════════════════════════════════════╕<br>
+║::: MENU ::::						 │<br>
 ║1-Defina acao e periodo (stock and period) 	         │<br>
 ║2-Ache N padroes em uma acao (find n stock patterns)    │<br>
 ║3-Ache um padrao em N acoes (find a pattern in n stocks)│<br>
@@ -42,5 +42,5 @@ Just follows the interactive menu:<br>
 ║6-Mudar estilo do grafico (change graph style)          │<br>
 ║7-Sobre...   (About...)                                 │<br>
 ║8-Sair       (Exit)                                     │<br>
-╙────────────────────────────────────────────────────────┘<br>
+╙────────────────────────────────────────┘<br>
 

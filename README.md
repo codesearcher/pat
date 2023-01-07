@@ -1,4 +1,4 @@
-# pat
+# <font color=green> PAT </font>
 (portuguese) Padrões em Análise Técnica (english) Technical Analysis Patterns 
 
 	I N S T A L L A T I O N
